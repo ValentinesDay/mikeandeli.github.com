@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<head>
+<script src="/assets/jquery.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+<style>
+body {
+  font-family: 'Press Start 2P', cursive;
+  position: relative;
+  max-width: 600px;
+  background: black;
+}
+ul {
+  width: 1000px;
+  position: relative;
+  padding: 10px;
+  background: black;
+}
+li {
+  position: relative;
+  left: 70px;
+  display: inline;
+  padding: 10px 10px 10px 10px;
+  color: red;
+}
+h1 {
+  position: relative;
+  left: 350px;
+  font-family: 'Press Start 2P', cursive;
+  text-align: relative;
+  font-size: 50px;
+  color: white;
+  margin: 60px 0 0 0;
+}
+h2 {
+  position: relative;
+  left: 395px;
+  text-align: relative;
+  color: white;
+  margin: 60px 0 0px 0;
+}
+div {
+  position: relative;
+  left: 70px;
+  right: 500px;
+  height: 300px;
+  width: 1000px;
+  background-size: relative;
+  position: relative;
+  margin: 40px 0 0 0;
+  border-radius: 40px;
+}
+p {
+  position: relative;
+  background:-webkit-linear-gradient(bottom,rgba(0,0,0,1), rgba(0,0,0,.4));
+  background:-o-linear-gradient(bottom,rgba(0,0,0,1), rgba(0,0,0,.4));
+  background:-moz-linear-gradient(bottom,rgba(0,0,0,1), rgba(0,0,0,.4));
+  color: rgba(255,255,255,1);
+  opacity: .9;
+  background: black;
+  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  padding: 5px;
+  line-height: 28px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  height: 31px;
+  width: 1000px; 
+  transition: height .5s;
+  border-radius: 0;
+}
+small {
+  opacity: 0;
+}
+.show-description p {
+  height: 250px;
+}
+.show-description small {
+  opacity: 1;
+}
+.first_date{
+  background-image: url("https://fbcdn-profile-a.akamaihd.net/hprofile-ak-frc3/t5/373022_147278763301_208091063_n.jpg");
+  background-position: center;
+}.brewery{
+  background-image: url("http://beerstreetjournal.com/wp-content/uploads/Half-Acre-Brewing-Logo.gif");
+  background-size: 400px;
+  background-position: center;
+}
+.hawks{
+  background-image: url("http://blogs.suburbanchicagonews.com/bauman/hawkswin.jpg");
+  background-size: 250px;
+  background-position: center;
+}
+.birthday{
+  background-image: url("http://bit.ly/1dJvYnl");
+}
+.fall{
+  background-image: url("http://hdwallpaperszon.com/wp-content/uploads/2013/11/Fall-Leaf-Wallpapers-9.jpg");
+  background-position: center;
+  background-size: 250px;
+
+  }
+.NYE{
+  background-image: url("http://img.wallbeam.com/130processed/big-Hanging-2014-with-Red-Ribbon-HD-Wallpaper.jpg");
+    background-position: center;
+}
+.Vday{
+  background-image: url("http://media-cache-ec0.pinimg.com/736x/8a/01/e1/8a01e1fa054504753755fe7314a40b3f.jpg");
+  background-size: 250px;
+  background-position: left;
+
+}
+.future {
+  background-image: url("http://th06.deviantart.net/fs70/150/f/2012/058/0/5/8_bit_heart_stock_by_xquatrox-d4r844m.png");
+  background-size: 55px;
+    background-position: center;
+}
+.date {
+  float: right;
+}
+</style>
+</head>
+<body>
+<h1>Mike & Eli</h1>
+<h2>a geeky love story</h2>
+    <ul>
+      <li><a href="#">Our Story</a></li>
+      <li><a href="#">Recipe for Love</a></li>
+      <li><a href="#">Solve for i</a></li>
+      <li><a href="#">00111111</a></li>
+      <li><a href="#">Mad Libs</a></li>
+<div class="first_date">
+  <p>first date<span class="date">june 15</span><br />
+  <small>There once was a geeky boy & a slightly nerdy girl each searching for eachother, but never knowing it. One day they connected online & exchanged messages. The day came to meet & the slightly nerdy girl found herself walking into Bad Apple & meeting the geeky boy. They grab a table & talk (well mostly her). They talk about their families & siblings (0 for him & 6 for her), the jobs (software developer for him & recruiting for her) & hobbies (reading for both!) The date is going great and they move to another bar for more drinks & talking. The slightly nerdy girl realizes how late it has become & must leave. She makes a quick goodbye & hopes he'll text her again.</small></p>
+</div>
+<div class="Brewery">
+  <p>brewery tour <span class="date">june 22</span><br />
+  <small>The text comes and it's an invitation for a brewery tour at Half Acre. The following weekend, they meet in line and one great tour and three drinks later, the two start a search for food. This will not be the last time they ask each other "Where do you want to go?" They end up at Fountainhead and she makes a point to listen and not talk the entire time (and somewhat fails at it). The talk turns to friends, family, birthdays (9/22 for her and the following Friday for him!) and more. They talk and drink in the sunshine until he has to go watch the Blackhawks playoff game and she to go book shopping. </small></p>
+</div>
+<div class="Hawks">
+  <p>Hawks Win!<span class="date">june 24</span><br />
+  <small>The Blackhawks win and the last game is the following Tuesday. The geeky boy and slightly nerdy girl make plans to watch the game at a bar. They watch the game, cheer for each goal, eat, drink some beers and sit on the edge of their seats as the game changes from a lost to a win in the last minute of the game. Througout the night and in the excitement of the championship win both feel the desire to kiss each other but the opportunity passes them by. The geeky boy escorts the slightly nerdy girl to a taxi --- next time they both say!</small></p>
+</div>
+<div class="Birthday">
+  <p>Birthday & First Kiss<span class="date">june 28</span><br />
+  <small>That following Friday (the geeky boy’s birthday) they find themselves at a restaurant ordering a bottle of wine and eating delicious food. Afterwards they move to a loud bar where their mutual poor hearing forces them to sit closer and close. Every touch is electric! After confirmation that it is no longer his birthday (first kisses shouldn't very be confused with birthday kisses) they exit the bar to go for a nightcap and kiss for the first time!</small></p>
+</div>
+<div class="fall">
+  <p>Summer Romance into the Fall<span class="date">Fall 2013</span><br />
+  <small>Continues dinners and drinks and activities - picnics, music in the parks, street festivals, cheering on half marathon (and bringing much needed iced coffees), flowers, nerdy girls birthday celebrations, Lincoln Park Zoo lights, robot date night, nights watching breaking bad and Sundays (and many Mondays) filled with football (and one fantasy football champion) and cooking, meeting the family and friends, spending Thanksgiving at the geeky boys family, a hundred bets, a thousand laughs, a million text messages, and billion of kisses brings is to New Year's Eve.</small></p>
+</div>
+<div class="NYE">
+  <p>New Years Eve 2014<span class="date">december 31</span><br />
+  <small>After exchanging Christmas gifts (a wireless soul sensor from him and a thesaurus and Settlers Of Catan from her) the couple take in a quiet dinner at Francesca's and then set off to Emporium for midnight toasts of Malort. Down the snowy street they walked when the slightly nerdy girl slightly blurted out "I love you!"</small></p>
+</div>
+<div class="Vday">
+  <p>Valentine's Day 2014<span class="date">february 14</span><br />
+  <small>A cold January starts off, but not for this couple! Dining out and cooking, building robots, meeting friends, going to parties, skiing in Canada (for one of them) and making future plans - oscar movie marathon, additions and subtraction a to the dinning list, caching in on bets, holidays always keep this couple warm and looking towards the future. So on this Valentine's Day, the slightly nerdy girl learns HTML and css to impress the geeky boy.</small></p>
+</div>
+<div class="future">
+  <p>2014 & Beyond<span class="date">2014</span><br />
+  <small>The future is ours to write!</small></p>
+</div>
+<script>
+  $('div').on('click', function() {
+      $(this).toggleClass('show-description');
+  });
+</script>
+</body>
